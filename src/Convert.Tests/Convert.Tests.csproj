@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C50AC1B6-1FBD-4BFB-86A7-4D3760AC4E22}</ProjectGuid>
+    <ProjectGuid>{EC7F1736-46F3-41F9-A620-56DF4640E801}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ByteSize.Tests</RootNamespace>
@@ -42,22 +42,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreatingMethods.cs" />
-    <Compile Include="ParsingMethods.cs" />
-    <Compile Include="ToStringMethod.cs" />
+    <Compile Include="Convert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ByteSize\ByteSize.csproj">
-      <Project>{5044c7a8-4ec1-4eb5-97d4-8b641303f166}</Project>
-      <Name>ByteSize</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ByteSize\ByteSize.csproj">
+      <Project>{5044c7a8-4ec1-4eb5-97d4-8b641303f166}</Project>
+      <Name>ByteSize</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

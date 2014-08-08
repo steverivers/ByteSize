@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF53BB43-EB17-4F09-945B-50720C20C77E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteSize.Tests", "ByteSize.Tests\ByteSize.Tests.csproj", "{C50AC1B6-1FBD-4BFB-86A7-4D3760AC4E22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteSize", "ByteSize\ByteSize.csproj", "{5044C7A8-4EC1-4EB5-97D4-8B641303F166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryByteSize.Tests", "BinaryByteSize.Tests\BinaryByteSize.Tests.csproj", "{11FCE687-41DA-4E08-AC37-575D632C9B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricByteSize.Tests", "MetricByteSize.Tests\MetricByteSize.Tests.csproj", "{E57AB968-7CCA-44DD-A698-26CEAD736760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert.Tests", "Convert.Tests\Convert.Tests.csproj", "{EC7F1736-46F3-41F9-A620-56DF4640E801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,26 @@ Global
 		{5044C7A8-4EC1-4EB5-97D4-8B641303F166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5044C7A8-4EC1-4EB5-97D4-8B641303F166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5044C7A8-4EC1-4EB5-97D4-8B641303F166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBB1BFC-6E17-4BA0-B703-3D32ED943376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBB1BFC-6E17-4BA0-B703-3D32ED943376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBB1BFC-6E17-4BA0-B703-3D32ED943376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBB1BFC-6E17-4BA0-B703-3D32ED943376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FCE687-41DA-4E08-AC37-575D632C9B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FCE687-41DA-4E08-AC37-575D632C9B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FCE687-41DA-4E08-AC37-575D632C9B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FCE687-41DA-4E08-AC37-575D632C9B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279C2E0A-253A-46C6-9756-DDDB5BA39B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279C2E0A-253A-46C6-9756-DDDB5BA39B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279C2E0A-253A-46C6-9756-DDDB5BA39B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279C2E0A-253A-46C6-9756-DDDB5BA39B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57AB968-7CCA-44DD-A698-26CEAD736760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57AB968-7CCA-44DD-A698-26CEAD736760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57AB968-7CCA-44DD-A698-26CEAD736760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57AB968-7CCA-44DD-A698-26CEAD736760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7F1736-46F3-41F9-A620-56DF4640E801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7F1736-46F3-41F9-A620-56DF4640E801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7F1736-46F3-41F9-A620-56DF4640E801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7F1736-46F3-41F9-A620-56DF4640E801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
